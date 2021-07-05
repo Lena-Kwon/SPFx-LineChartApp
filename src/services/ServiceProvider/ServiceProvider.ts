@@ -2,9 +2,9 @@ import { HttpClient, IHttpClientOptions, HttpClientResponse } from '@microsoft/s
 import { WebPartContext } from '@microsoft/sp-webpart-base';  
 import IServiceProvider from "./IServiceProvider";
 import IVaccinationItem from "./IVaccinationItem";
-import { ChartPoint } from 'chart.js';
+//import { ChartPoint } from 'chart.js';
 
-const FAKE_DELAY: number = 500;
+//const FAKE_DELAY: number = 500;
 
 export class ServiceProvider implements IServiceProvider {
     private wpcontext:WebPartContext;

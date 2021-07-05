@@ -2,7 +2,7 @@ import { WebPartContext } from "@microsoft/sp-webpart-base";
 import { ChartData } from 'chart.js';
 
 export interface IChart1Props {
-    context:WebPartContext;
+    context: WebPartContext;
 }
 
 export interface IChart1State {

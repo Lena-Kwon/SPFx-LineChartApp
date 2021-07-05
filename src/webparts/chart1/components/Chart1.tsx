@@ -26,8 +26,6 @@ export default class Chart1 extends React.Component<IChart1Props, IChart1State> 
   }
   
   public render(): React.ReactElement<IChart1Props> {
-    //const { fill } = this.state;
-    //console.log('render됨');
     return (
       <div className={styles.chart1}>
         {this._renderCommandBar()}
